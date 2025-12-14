@@ -1,0 +1,79 @@
+#container{
+    position:absolute;
+    width:1200px;
+    height:800px;
+    border:2px solid #000000;
+    perspective: 600px;
+    overflow:hidden;
+}
+
+#world{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    transform-style: preserve-3d;
+}
+
+.square{
+    position: absolute;
+}
+
+.menu{
+    display: none;
+    position:absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #C0FFFF;
+
+}
+
+.button{
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    background-color: #8e8e8e;
+    cursor:pointer;
+    border-radius: 100px;
+}
+
+.button:hover{
+    background-color: #ffffff;
+}
+
+#button1{
+    top:100px;
+    left: 150px;
+}
+
+#button2{
+    top:300px;
+    left:150px;
+}
+
+#button3{
+    top:500px;
+    left:150px;
+}
+#button4{
+    top:500px;
+    left:150px;
+}
+#button5{
+    top:500px;
+    left:150px;
+}
+p{
+    position: absolute;
+    font-size: 60px;
+    top:50%;
+    left:50%;
+    margin:0px;
+    transform: translate(-50%,-50%);
+    font-family: game;
+}
+
+@font-face{
+    font-family: game;
+    src: url("../fonts/game.otf")
+}
+
