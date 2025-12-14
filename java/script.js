@@ -1,4 +1,3 @@
-//Maciek mistake count: 11
 
 //world constant 
 var deg = Math.PI/180;
