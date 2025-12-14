@@ -250,7 +250,7 @@ document.addEventListener("mousemove", (event) =>{
     MouseY = event.movementY;
 }) 
 
-var pawn = new player(0,0,0,0,0);
+var pawn = new player(-950,0,950,0,0);
 var world = document.getElementById("world");
 
 function update(){
